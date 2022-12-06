@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HarmonyPatches\VXF_IsPreferredXenotype.cs" />
+    <Compile Include="HarmonyPatches\VXF_PawnIdeoDisallowsImplanting.cs" />
     <Compile Include="Util.cs" />
     <Compile Include="UtilDefOf.cs" />
     <Compile Include="VeneratedXenotypeFlexibility.cs" />
@@ -72,6 +73,7 @@
       <Link>About.xml</Link>
     </Content>
     <Content Include="LICENSE.txt" />
+    <Content Include="package_for_release.ps1" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

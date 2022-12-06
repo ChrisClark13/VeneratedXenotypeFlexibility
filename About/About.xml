@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Venerated Xenotype Flexibility</name>
+  <name>Venerated Xenotype Flexibility_DEV_</name>
   <author>ChrisClark13</author>
-  <url></url>
-  <packageId>ChrisClark13.VeneratedXenotypeFlexibility</packageId>
+  <packageId>ChrisClark13.VeneratedXenotypeFlexibility_DEV_</packageId>
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>
 
   <description>
-    Sample description.
-
-    Which spans multiple lines. Is also includes whitespace, so unless you want ugly indentation on the workshop, you need to have it un-beautified like this.
+    Adds "Xenotype Strictness" Precept to adjust how a pawn is determined to be a Preferred Xenotype.
+    Partial (50% or more gene match, configurable), Full (100% match, extra ok), Exact (100%, no extras), Vanilla (default to vanilla/other modded check)
   </description>
 
   <modDependencies>
@@ -36,5 +34,6 @@
     <li>ludeon.rimworld</li>
     <li>ludeon.rimworld.ideology</li>
     <li>ludeon.rimworld.biotech</li>
+    <li>porousboat.flexible_xenogerms</li>
   </loadAfter>
 </ModMetaData>

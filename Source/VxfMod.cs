@@ -16,10 +16,10 @@ namespace ChrisClark13.VeneratedXenotypeFlexibility
         {
             Listing_Standard listingStandard = new Listing_Standard();
             listingStandard.Begin(inRect);
-            Settings.partialMatchThreshold = Mathf.Max(
+            Settings.PartialMatchThreshold = Mathf.Max(
                 Mathf.Floor(listingStandard.SliderLabeled(
-                    "PartialMatchThresholdDesc".Translate() + $" ({Settings.partialMatchThreshold * 100}%)",
-                    Settings.partialMatchThreshold,
+                    "PartialMatchThresholdDesc".Translate() + $" (>= {Settings.PartialMatchThreshold * 100}%)",
+                    Settings.PartialMatchThreshold,
                     0.0001f,
                     1f
                 ) * 100f) / 100f,
