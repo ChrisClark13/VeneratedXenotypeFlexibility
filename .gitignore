@@ -1,0 +1,6 @@
+﻿/Source/.vs/
+/Source/.idea/
+/Source/bin/
+/Source/obj/
+/Source/packages/
+*.user

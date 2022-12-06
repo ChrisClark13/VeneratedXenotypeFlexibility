@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <IssueDef>
+        <defName>VXF_XenotypeStrictness</defName>
+        <label>venerated xenotype strictness</label>
+        <iconPath>UI/Issues/Comfort</iconPath>
+    </IssueDef>
+    
+    <PreceptDef>
+        <defName>VXF_XenotypeStrictness_Partial</defName>
+        <issue>VXF_XenotypeStrictness</issue>
+        <label>partial match</label>
+        <description>Sharing some of the genes is enough to count.\n(Configurable in Mod Settings)</description>
+        <impact>Medium</impact>
+    </PreceptDef>
+
+    <PreceptDef>
+        <defName>VXF_XenotypeStrictness_Full</defName>
+        <issue>VXF_XenotypeStrictness</issue>
+        <label>full match</label>
+        <description>Having all the right genes is required, but any extras are fine.</description>
+        <impact>Medium</impact>
+        <defaultSelectionWeight>1</defaultSelectionWeight>
+    </PreceptDef>
+
+    <PreceptDef>
+        <defName>VXF_XenotypeStrictness_Exact</defName>
+        <issue>VXF_XenotypeStrictness</issue>
+        <label>exact match</label>
+        <description>One must have all the right genes, no more, no less.</description>
+        <impact>High</impact>
+    </PreceptDef>
+
+    <PreceptDef>
+        <defName>VXF_XenotypeStrictness_Vanilla</defName>
+        <issue>VXF_XenotypeStrictness</issue>
+        <label>vanilla</label>
+        <description>Default to vanilla behavior.</description>
+        <impact>Low</impact>
+    </PreceptDef>
+</Defs>

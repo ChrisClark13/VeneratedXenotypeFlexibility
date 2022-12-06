@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<LanguageData>
+    <PartialMatchThresholdDesc>How much a pawn's genes must match under the 'Xenotype Strictness: Partial Match' Precept.</PartialMatchThresholdDesc>
+    <VeneratedXenotypeFlexibility.DisplayName>Venerated Xenotype Flexibility</VeneratedXenotypeFlexibility.DisplayName>
+</LanguageData>
